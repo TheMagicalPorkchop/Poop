@@ -1,0 +1,62 @@
+@echo off
+echo Ask Baby Siri!!!
+pause
+:start
+cls
+set /p "ask=>"
+set /a n=%random% %%11 +1
+if %n%==11 goto Stupid
+if %n%==10 goto Awesome
+if %n%==9 goto NO
+if %n%==8 goto Farts
+if %n%==7 goto Stinky
+if %n%==6 goto Pooop
+if %n%==5 goto Something
+if %n%==4 goto YES
+if %n%==3 goto Burps
+if %n%==2 goto Smells like roses
+if %n%==1 goto Peeee
+:Stupid
+echo Stupid
+pause
+goto start
+:Awesome
+echo Awesome
+pause
+goto start
+:NO
+echo No
+pause
+goto start
+:Farts
+echo Farts
+pause
+goto start
+:Stinky
+echo Stinky
+pause
+goto start
+:Pooop
+echo Pooop
+pause
+goto start
+:Something
+echo Something
+pause
+goto start
+:YES
+echo Yes
+pause
+goto start
+:Burps
+echo Burps
+pause
+goto start
+:Smells Like Roses
+echo Smells Like Roses
+pause
+goto start
+:Peeee
+echo Peeee
+pause
+goto start
